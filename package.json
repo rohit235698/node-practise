@@ -1,0 +1,21 @@
+{
+  "name": "node-practise",
+  "version": "1.0.0",
+  "description": "this is demo project created for purpose of learning node js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "rohit",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.9"
+  },
+  "devDependencies": {
+    "cors": "^2.8.1",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.2"
+  }
+}
